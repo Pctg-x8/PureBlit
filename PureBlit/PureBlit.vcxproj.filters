@@ -13,8 +13,90 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="VST SDK">
+      <UniqueIdentifier>{8f0fe17c-b191-4213-9d47-f4a979b6d916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VST SDK\pluginterfaces">
+      <UniqueIdentifier>{c618e4d4-4f18-4688-bcda-bfe4d1c0648b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
+    <None Include="PureBlit.def">
+      <Filter>ソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="LICENSE.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="controller.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="processor.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="factory.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\VST3 SDK\public.sdk\source\vst\vstaudioeffect.cpp">
+      <Filter>VST SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\VST3 SDK\public.sdk\source\vst\vstbus.cpp">
+      <Filter>VST SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\VST3 SDK\public.sdk\source\vst\vstcomponent.cpp">
+      <Filter>VST SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\VST3 SDK\public.sdk\source\vst\vstcomponentbase.cpp">
+      <Filter>VST SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\VST3 SDK\public.sdk\source\vst\vsteditcontroller.cpp">
+      <Filter>VST SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\VST3 SDK\public.sdk\source\vst\vstinitiids.cpp">
+      <Filter>VST SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\VST3 SDK\public.sdk\source\vst\vstnoteexpressiontypes.cpp">
+      <Filter>VST SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\VST3 SDK\public.sdk\source\vst\vstparameters.cpp">
+      <Filter>VST SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\VST3 SDK\public.sdk\source\vst\vstpresetfile.cpp">
+      <Filter>VST SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\VST3 SDK\public.sdk\source\vst\vstrepresentation.cpp">
+      <Filter>VST SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\VST3 SDK\pluginterfaces\base\conststringtable.cpp">
+      <Filter>VST SDK\pluginterfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\VST3 SDK\pluginterfaces\base\funknown.cpp">
+      <Filter>VST SDK\pluginterfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\VST3 SDK\pluginterfaces\base\ustring.cpp">
+      <Filter>VST SDK\pluginterfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\VST3 SDK\public.sdk\source\common\memorystream.cpp">
+      <Filter>VST SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\VST3 SDK\public.sdk\source\common\pluginview.cpp">
+      <Filter>VST SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\VST3 SDK\public.sdk\source\main\dllmain.cpp">
+      <Filter>VST SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\VST3 SDK\public.sdk\source\main\pluginfactoryvst3.cpp">
+      <Filter>VST SDK</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="controller.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="processor.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
