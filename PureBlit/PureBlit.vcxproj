@@ -150,11 +150,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="..\README.md" />
     <None Include="PureBlit.def" />
-    <None Include="README.md" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="LICENSE.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\..\VST3 SDK\pluginterfaces\base\conststringtable.cpp" />
@@ -181,6 +178,9 @@
   <ItemGroup>
     <ClInclude Include="controller.h" />
     <ClInclude Include="processor.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\LICENSE.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
